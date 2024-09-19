@@ -1,4 +1,5 @@
 # Deepfake Image Detection Using VGG16 and Channel Attention
+### *Ashraf Ul Alam, Sudipta Progga Islam*
 
 This project focuses on detecting deepfake images using the **140k Real and Fake Faces** dataset from Kaggle. We leverage **VGG16** with channel attention to enhance the performance of the model, improving accuracy by focusing on the most relevant feature channels. We also perform an ablation study with **ResNet50** to compare feature extraction performance.
 
