@@ -1,5 +1,7 @@
 # Optimizing Feature Representation of Deep Neural Networks for Enhanced Deepfake Detection
-### *Ashraf Ul Alam, Sudipta Progga Islam*
+<!-- ### *Ashraf Ul Alam, Sudipta Progga Islam* -->
+![Proposed Architecture](vgg_ch.drawio.png)
+---
 
 This project focuses on optimizing feature representation of Deep Neural Networks (DNN) for enhanced deepfake detection. We leverage **VGG16**, known for its deep architecture, along with a channel attention mechanism to enhance model performance by prioritizing the most relevant feature vectors, which ultimately leads to optimized model training. In this study, we utilize deepfake images from the **140k Real and Fake Faces** dataset on Kaggle. Additionally, we perform an ablation study with **ResNet50** to compare feature extraction performance. 
 
