@@ -29,11 +29,11 @@ We implemented the **VGG16** deep learning model for classification, enhanced by
 
 ## Results
 
-| Model                | Accuracy  |
-|----------------------|-----------|
-| ResNet50             | 96.65%    |
-| ResNet50 + Attention | 98.41%    |
-| VGG16                | 99.64%    |
-| VGG16 + Attention    | 99.80%    |
+| Model                | Accuracy  | Precision | Recall |
+|----------------------|-----------|-----------|--------|
+| ResNet50             | 96.65%    | 99.87%    | 93.42% |
+| ResNet50 + Attention | 98.41%    | 99.70%    | 97.11% |
+| VGG16                | 99.64%    | 99.92%    | 99.35% |
+| VGG16 + Attention    | 99.80%    | 99.92%    | 99.65% |
 
 The addition of channel attention enhanced the model's performance by focusing on the most relevant features. The **VGG16 with Channel Attention** model outperformed all other configurations, achieving an accuracy of **99.80%**.
